@@ -11,8 +11,11 @@
 
   window.addEventListener('scroll',function(){
     let value = window.scrollY;
+    // @ts-ignore
     text.style.top = 50+value*-0.5+'%';
+    // @ts-ignore
     btn.style.top = value*1.5+'px';
+      // @ts-ignore
       header.style.top = value*+0.5+'px';
   })
     });
@@ -22,7 +25,7 @@
     <ul class="menu">
         <li class="menulist"><a href="" class="">Home</a></li>
         <li class="menulist"><a href="" class="">About</a></li>
-        <li class="menulist"><a href="" class="">Destination</a></li>
+        <li class="menulist"><a href="" class="">Project</a></li>
         <li class="menulist"><a href="" class="">Contact</a></li>
     </ul>
 </header>
@@ -47,9 +50,13 @@
          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
 </div>
 
+<div class="project">
+    
+</div>
+
 <style>
     #header{
-        position: sticky;
+        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
@@ -155,7 +162,20 @@ h2#text span{
     background: #094b65;
     
 }
+.sec h2{
+    font-size: 22px;
+    color: #f5f5f5;
+    font-weight: 600;
+    font-family: 'Noto Serif', serif;
+}
+.sec p{
+    font-size: 16px;
+    color: #f5f5f5;
+    font-weight: 400;
+    text-align: justify;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 </style>
 
 
