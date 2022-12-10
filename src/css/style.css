@@ -1,0 +1,50 @@
+.list_item:last-child .index .index-divider {
+    border-width: 0;
+}
+.list_item .index {
+    text-align: center;
+    color: #ffffff;
+}
+.list_item .index .index-text {
+    display: inline-flex;
+    border: 1px solid;
+    width: 52px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.list_item .index .index-divider {
+    position: absolute;
+    top: 27px;
+    left: calc(50% + 52px);
+    width: calc(100% - 112px);
+    height: 1px;
+    border-top: 1px solid;
+}
+@media (max-width: 768px) {
+    .list_item .index {
+        float:left;
+        margin-right: 20px;
+        height: 100%;
+        width: auto;
+    }
+    .list_item .index .index-divider {
+        position: absolute;
+        top: 75px;
+        left: 40px;
+        width: 1px;
+        height: calc(100% - 70px);
+        border-right: 1px solid;
+        border-top: 0;
+    }
+    .list_item {
+        margin-bottom: 30px;
+    }
+    .list_item .card {
+        float: left;
+        width: calc(100% - 80px);
+    }
+}
