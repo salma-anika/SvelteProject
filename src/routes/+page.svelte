@@ -1,0 +1,147 @@
+<script>
+    import { onMount } from 'svelte';
+  
+    onMount(() => {
+     
+  
+      let text = document.getElementById('text');
+    let btn = document.getElementById('btn');
+    let header = document.getElementById('header');
+ 
+
+  window.addEventListener('scroll',function(){
+    let value = window.scrollY;
+    text.style.top = 50+value*-0.5+'%';
+    btn.style.top = value*1.5+'px';
+      header.style.top = value*+0.5+'px';
+  })
+    });
+  </script>
+<header id="header" >
+    <a href="" class="logo">Ava</a>
+    <ul class="menu">
+        <li class="menulist"><a href="" class="">Home</a></li>
+        <li class="menulist"><a href="" class="">About</a></li>
+        <li class="menulist"><a href="" class="">Destination</a></li>
+        <li class="menulist"><a href="" class="">Contact</a></li>
+    </ul>
+</header>
+<section >
+
+    <h2 id="text"><span>It's time for a new </span><br>Advanture</h2>
+    <a href="#" id="btn">Explore</a>
+  
+</section>
+<div class="sec">
+
+    <h2>Parallex Scrolling Effects</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+</div>
+
+<style>
+    #header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10000;
+        
+    }
+
+    a.logo{
+        color: #094b65;
+        font-weight: 700;
+        font-size: 2em;
+        text-decoration: none;
+        margin-left:100px ;
+    }
+
+    ul.menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    li.menulist{
+        list-style: none;
+        margin-left: 20px;
+    }
+
+    li.menulist a{
+text-decoration: none;
+padding: 6px 15px;
+color: #094b65;
+border-radius: 20px;
+    }
+
+    li.menulist a:hover{
+        background-color: #094b65;
+        color: #fff;
+    }
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('back2.webp');
+     
+
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #094b65, transparent);
+    z-index: 10;
+}
+
+ h2#text{
+    position: absolute;
+    color: #094b65;
+    font-size: 10vw;
+    text-align: center;
+    line-height: 0.55em;
+    font-family: 'Rancho',cursive;
+
+}
+
+h2#text span{
+    font-size: 0.20em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'poppins',sans-serif;
+}
+#btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    background: #fff;
+    color: #094b65;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    transform: translateY(100px);
+    margin-top: 130px;
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #094b65;
+}
+
+</style>
+
+
