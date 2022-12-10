@@ -59,7 +59,7 @@
 	</p>
 </div>
 
-<div id="laravel" class="w-full h-screen">
+<div id="project" class="w-full h-screen">
 	<div class="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
 		<h2
 			class="text-7xl text-center md:text-3xl uppercase tracking-wider font-bold top-2 text-sky-700"
@@ -75,8 +75,7 @@
 				<img
 					class="rounded-md duration-200 hover:scale-110"
 					src="/background.jpg"
-					width="350"
-					height="350"
+					
 					alt=""
 				/>
 				<h2
@@ -89,51 +88,48 @@
 				<img
 					class="rounded-md duration-200 hover:scale-110"
 					src="/background.jpg"
-					width="350"
-					height="350"
+					
 					alt=""
 				/>
 				<h2
 					class="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4"
 				>
-					Web Project
+					Mobile App
 				</h2>
 			</div>
 			<div class="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md">
 				<img
 					class="rounded-md duration-200 hover:scale-110"
 					src="/background.jpg"
-					width="350"
-					height="350"
+					
 					alt=""
 				/>
 				<h2
 					class="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4"
 				>
-					Web Project
+					Laravel Project
 				</h2>
 			</div>
 			<div class="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md">
 				<img
 					class="rounded-md duration-200 hover:scale-110"
 					src="/background.jpg"
-					width="350"
-					height="350"
+					
 					alt=""
 				/>
 				<h2
 					class="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4"
 				>
-					Web Project
+					Nextjs Project
 				</h2>
 			</div>
             <div class='cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md'>
-                <img class="rounded-md duration-200 hover:scale-110" src='/background.jpg' width="350" height="350" alt=""/>
-                <h2 class='text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4'>Web Project</h2>
+                <img class="rounded-md duration-200 hover:scale-110" src='/background.jpg'  alt=""/>
+                <h2 class='text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4'>Reactjs Project</h2>
                                     </div>
                                     <div class='cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md'>
-                                        <img class="rounded-md duration-200 hover:scale-110" src='/background.jpg' width="350" height="350" alt=""/>
-                                        <h2 class='text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4'>Web Project</h2>
+                                        <img class="rounded-md duration-200 hover:scale-110" src='/background.jpg'  alt=""/>
+                                        <h2 class='text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4'>Graphics Project</h2>
                                                             </div>
 		</div>
         
