@@ -85,6 +85,7 @@
 text-decoration: none;
 padding: 6px 15px;
 color: #094b65;
+font-weight: 700;
 border-radius: 20px;
     }
 
@@ -152,6 +153,7 @@ h2#text span{
     position: relative;
     padding: 100px;
     background: #094b65;
+    
 }
 
 </style>
