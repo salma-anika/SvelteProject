@@ -144,6 +144,10 @@ h2#text span{
     transform: translateY(100px);
     margin-top: 130px;
 }
+#btn:hover{
+    background: #094b65;
+    color: #fff;
+}
 .sec{
     position: relative;
     padding: 100px;
