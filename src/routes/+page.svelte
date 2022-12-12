@@ -34,7 +34,7 @@
 	<a href="#" id="btn">Explore</a>
 </section>
 <div class="sec">
-	<h2>About Me</h2>
+	<h2 class="text-7xl text-center md:text-3xl uppercase tracking-wider font-bold top-2">About Me</h2>
 
 	<p>
 		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
